@@ -1,0 +1,12 @@
+export const ADD_MENU = 'ADD_MENU';
+export const MENU_LOADING = 'MENU_LOADING';
+export const MENU_FAILED = 'MENU_FAILED';
+export const INCREMENT = 'INCREMENT';
+export const DECREMENT = 'DECREMENT';
+export const CLEAR_CART = 'CLEAR_CART';
+export const ADD_TOTALS = 'ADD_TOTALS';
+export const ADD_PRODUCT_TO_CART = 'ADD_PRODUCT_TO_CART';
+export const OPEN_MODAL = 'OPEN_MODAL';
+export const CLOSE_MODAL = 'CLOSE_MODAL';
+export const REMOVE_ITEM = 'REMOVE_ITEM';
+export const LOGIN = 'LOGIN';
