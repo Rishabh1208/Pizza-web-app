@@ -7,11 +7,12 @@ import {
 	CardTitle,
 	Button,
 } from 'reactstrap';
+import { withRouter } from 'react-router-dom';
 
 import Styled from 'styled-components';
 import { Loading } from './Loading';
 import { FadeTransform } from 'react-animation-components';
-import { fetchMenu, openModal, addProductToCart } from '../redux/actionCreator';
+import { fetchMenu, addProductToCart } from '../redux/actionCreator';
 import { connect } from 'react-redux';
 
 const mapStateToProps = (state) => ({
@@ -97,7 +98,9 @@ class PizzaMenu extends Component {
 	}
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(PizzaMenu);
+export default withRouter(
+	connect(mapStateToProps, mapDispatchToProps)(PizzaMenu)
+);
 
 const PizzaCard = Styled.div`
 	

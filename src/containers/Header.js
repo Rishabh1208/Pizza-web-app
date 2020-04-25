@@ -11,6 +11,7 @@ import {
 	NavbarText,
 } from 'reactstrap';
 import { connect } from 'react-redux';
+import { withRouter } from 'react-router-dom';
 
 const mapStateToProps = (state) => ({
 	menu: state.menu,
@@ -71,4 +72,4 @@ function Header(props) {
 		</React.Fragment>
 	);
 }
-export default connect(mapStateToProps)(Header);
+export default withRouter(connect(mapStateToProps)(Header));

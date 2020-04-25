@@ -14,9 +14,9 @@ export default class App extends Component {
 					<Header />
 					<Switch>
 						<Route path='/' exact component={Home} />
-						<Route path='/about' exact component={About} />
-						<Route path='/cart' exact component={Cart} />
-						<Redirect to='/'></Redirect>
+						<Route path='/about' component={About} />
+						<Route path='/cart' component={Cart} />
+						<Redirect to='/' exact></Redirect>
 					</Switch>
 					<Footer />
 				</BrowserRouter>

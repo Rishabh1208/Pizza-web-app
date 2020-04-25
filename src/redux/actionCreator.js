@@ -23,8 +23,6 @@ export const fetchMenu = () => (dispatch) => {
 	});
 	dispatch(menuLoading(true));
 	setTimeout(() => {
-		console.log('storeProducts ', storeProducts);
-		console.log('tempProducts ', tempProduct);
 		dispatch(addMenu(tempProduct));
 	}, 2000);
 };

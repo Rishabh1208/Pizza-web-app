@@ -15,6 +15,7 @@ import {
 	postLogin,
 	closeModal,
 } from '../redux/actionCreator';
+import { withRouter } from 'react-router-dom';
 
 const mapStateToProps = (state) => ({
 	cart: state.menu.cart,
@@ -104,4 +105,4 @@ function Cart(props) {
 	}
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(Cart);
+export default withRouter(connect(mapStateToProps, mapDispatchToProps)(Cart));
