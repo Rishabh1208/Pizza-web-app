@@ -15,6 +15,8 @@ import {
 	postLogin,
 	closeModal,
 } from '../redux/actionCreator';
+import { PDFDownloadLink } from '@react-pdf/renderer';
+import { PdfDocument } from './invoice';
 import { withRouter } from 'react-router-dom';
 
 const mapStateToProps = (state) => ({
@@ -71,6 +73,7 @@ function Cart(props) {
 					postLogin={props.postLogin}
 					closeModal={props.closeModal}
 				/>
+
 				<div>
 					{props.form.address ? (
 						<div className='container'>
@@ -80,14 +83,23 @@ function Cart(props) {
 										<h4 className='alert-heading'>
 											Congratulations! Your Order has been Placed.
 										</h4>
-										<p>
+										<div>
 											<div>
 												Name: {props.form.firstname} {props.form.lastname}
 											</div>
 											<div>Address: {props.form.address}</div>
-											<div>Pizza: {props.cart.length}</div>
+											<div>
+												Pizza:
+												{props.cart.map((item) => {
+													return (
+														<p key={item.id}>
+															{item.title}: {item.count}
+														</p>
+													);
+												})}
+											</div>
 											<div>Price: ${props.cartTotal}</div>
-										</p>
+										</div>
 										<hr />
 										<p className='mb-0'>
 											Your Order will be delivered within 30 Minutes.
@@ -97,6 +109,37 @@ function Cart(props) {
 							</div>
 						</div>
 					) : null}
+				</div>
+
+				<div className='container'>
+					<div className='row'>
+						<div className='col-6'>
+							{props.form.address && (
+								<PDFDownloadLink
+									document={
+										<PdfDocument
+											cart={props.cart}
+											cartTotal={props.cartTotal}
+											form={props.form}
+											cartSubTotal={props.cartSubTotal}
+											cartTax={props.cartTax}
+										/>
+									}
+									fileName='invoice.pdf'
+									style={{
+										textDecoration: 'none',
+										padding: '10px',
+										color: 'white',
+										backgroundColor: '#FF8E38',
+										border: 'none',
+									}}>
+									{({ blob, url, loading, error }) =>
+										loading ? 'Loading document...' : 'Download Invoice'
+									}
+								</PDFDownloadLink>
+							)}
+						</div>
+					</div>
 				</div>
 			</React.Fragment>
 		);

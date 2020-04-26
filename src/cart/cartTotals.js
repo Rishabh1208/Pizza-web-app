@@ -23,15 +23,19 @@ export default function CartTotals({
 						</Link>
 						<h5>
 							<span className='text-title'>subTotal :</span>
-							<strong>${cartSubTotal}</strong>
+							<strong>{cartSubTotal}$</strong>
 						</h5>
 						<h5>
 							<span className='text-title'>tax :</span>
-							<strong>${cartTax}</strong>
+							<strong>{cartTax}$</strong>
+						</h5>
+						<h5>
+							<span className='text-title'>delivery :</span>
+							<strong>1$</strong>
 						</h5>
 						<h5>
 							<span className='text-title'>Total :</span>
-							<strong>${cartTotal}</strong>
+							<strong>{cartTotal}$</strong>
 						</h5>
 					</div>
 				</div>

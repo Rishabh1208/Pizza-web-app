@@ -74,7 +74,7 @@ export const Menu = (
 				...state,
 				cartSubTotal: subTotal,
 				cartTax: tax,
-				cartTotal: Total,
+				cartTotal: Total + 1,
 			};
 
 		case ActionTypes.INCREMENT:
