@@ -26,7 +26,7 @@ function Header(props) {
 			<Navbar light expand='md' style={{ background: '#FFFAF2' }}>
 				<img
 					style={{ height: '40px', width: '40px' }}
-					src='images/logo.png'
+					src='images/logo.webp'
 					alt='logo'
 				/>
 				<NavbarBrand style={{ color: '#010A3B', fontWeight: 'bold' }}>

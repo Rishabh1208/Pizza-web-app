@@ -2,7 +2,7 @@ export const storeProducts = [
 	{
 		id: 1,
 		title: 'Farm House',
-		img: 'images/pizza.jpg',
+		img: 'images/pizza.webp',
 		price: 10,
 		info:
 			'A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes.',
@@ -13,7 +13,7 @@ export const storeProducts = [
 	{
 		id: 2,
 		title: 'Mexican Green Wave',
-		img: 'images/pizza1.jpg',
+		img: 'images/pizza1.webp',
 		price: 12,
 		info:
 			'A pizza loaded with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with a liberal sprinkling of exotic Mexican herbs.',
@@ -24,7 +24,7 @@ export const storeProducts = [
 	{
 		id: 3,
 		title: 'Deluxe Veggie',
-		img: 'images/pizza2.jpg',
+		img: 'images/pizza2.webp',
 		price: 14,
 		info:
 			'For a vegetarian looking for a BIG treat that goes easy on the spices, this ones got it all. The onions, the capsicum, - with paneer and golden corn to top it all. ',
@@ -35,7 +35,7 @@ export const storeProducts = [
 	{
 		id: 4,
 		title: 'Veg Extravaganza',
-		img: 'images/pizza3.jpg',
+		img: 'images/pizza3.webp',
 		price: 18,
 		info:
 			'A pizza that decidedly staggers under an overload of golden corn, exotic black olives, crunchy onions, juicyfresh tomatoes and jalapeno - with extra cheese to go all around.',
@@ -46,7 +46,7 @@ export const storeProducts = [
 	{
 		id: 5,
 		title: 'Chicken Golden Delight',
-		img: 'images/pizza4.jpg',
+		img: 'images/pizza4.webp',
 		price: 17,
 		info:
 			'Mmm! Barbeque chicken with a topping of golden corn, exotic black olives, crunchy onions, juicyfresh tomatoes loaded with extra cheese. Worth its weight in gold',
@@ -57,7 +57,7 @@ export const storeProducts = [
 	{
 		id: 6,
 		title: 'Non Veg Supreme',
-		img: 'images/pizza5.jpg',
+		img: 'images/pizza5.webp',
 		price: 20,
 		info:
 			'Bite into supreme delight of Black Olives, Onions, Grilled Mushrooms, exotic black olives, Pepper BBQ Chicken, Peri-Peri Chicken, Grilled Chicken Rashers with thin crust cheese.',
@@ -68,7 +68,7 @@ export const storeProducts = [
 	{
 		id: 7,
 		title: 'Chicken Dominator',
-		img: 'images/pizza6.jpg',
+		img: 'images/pizza6.webp',
 		price: 22,
 		info:
 			'Treat your taste buds with Double Pepper Barbecue Chicken, Peri-Peri Chicken, Chicken Tikka & Grilled Chicken Rashers with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno',
@@ -79,7 +79,7 @@ export const storeProducts = [
 	{
 		id: 8,
 		title: 'CHICKEN FIESTA',
-		img: 'images/pizza7.jpg',
+		img: 'images/pizza7.webp',
 		price: 14,
 		info:
 			'Grilled Chicken Rashers I Peri-Peri Chicken I Onion I Capsicum with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno with extra cheese overload on it to make it yummy.',
@@ -90,7 +90,7 @@ export const storeProducts = [
 	{
 		id: 9,
 		title: 'Indi Chicken Tikka',
-		img: 'images/pizza8.jpg',
+		img: 'images/pizza8.webp',
 		price: 15,
 		info:
 			'The wholesome flavour of tandoori masala with Chicken tikka I onion I red paprika I mint mayo with crunchy onions, crisp capsicum, juicy tomatoes and jalapeno.',
@@ -103,7 +103,7 @@ export const storeProducts = [
 export const detailProduct = {
 	id: 1,
 	title: 'Farm House',
-	img: 'images/pizza.jpg',
+	img: 'images/pizza.webp',
 	price: 10,
 	info:
 		'A pizza that goes ballistic on veggies! Check out this mouth watering overload of crunchy, crisp capsicum, succulent mushrooms and fresh tomatoes.',

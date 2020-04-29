@@ -8,7 +8,7 @@ export default function BootstrapCarousel() {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='images/carousel.jpg'
+						src='images/carousel.webp'
 						alt='First slide'
 						style={{
 							width: 'auto',
@@ -19,7 +19,7 @@ export default function BootstrapCarousel() {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='images/carousel1.jpg'
+						src='images/carousel1.webp'
 						alt='Third slide'
 						style={{
 							width: 'auto',
@@ -30,7 +30,7 @@ export default function BootstrapCarousel() {
 				<Carousel.Item>
 					<img
 						className='d-block w-100'
-						src='images/carousel2.jpg'
+						src='images/carousel2.webp'
 						alt='Third slide'
 						style={{
 							width: 'auto',
