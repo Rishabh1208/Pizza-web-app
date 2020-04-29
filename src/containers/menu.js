@@ -76,7 +76,11 @@ class PizzaMenu extends Component {
 												<CardText>{menu.info}</CardText>
 
 												<Button
-													style={{ background: '#FF8E38', border: 'none' }}
+													style={{
+														background: '#e61a39',
+														border: 'none',
+														color: '#FAFFFC',
+													}}
 													disabled={menu.inCart ? true : false}
 													onClick={() => {
 														this.props.addProductToCart(menu.id);

@@ -54,36 +54,42 @@ function Footer(props) {
 									style={{ color: 'orange' }}
 									className='btn btn-social-icon btn-google'
 									href='http://google.com/+'>
+									Google
 									<i className='fa fa-google-plus'></i>
 								</a>
 								<a
 									style={{ color: 'orange' }}
 									className='btn btn-social-icon btn-facebook'
 									href='http://www.facebook.com/profile.php?id='>
+									Facebook
 									<i className='fa fa-facebook'></i>
 								</a>
 								<a
 									style={{ color: 'orange' }}
 									className='btn btn-social-icon btn-linkedin'
 									href='http://www.linkedin.com/in/'>
+									Linkedin
 									<i className='fa fa-linkedin'></i>
 								</a>
 								<a
 									style={{ color: 'orange' }}
 									className='btn btn-social-icon btn-twitter'
 									href='http://twitter.com/'>
+									Twitter
 									<i className='fa fa-twitter'></i>
 								</a>
 								<a
 									style={{ color: 'orange' }}
 									className='btn btn-social-icon btn-google'
 									href='http://youtube.com/'>
+									Youtube
 									<i className='fa fa-youtube'></i>
 								</a>
 								<a
 									style={{ color: 'orange' }}
 									className='btn btn-social-icon'
 									href='mailto:'>
+									Email
 									<i className='fa fa-envelope-o'></i>
 								</a>
 							</div>
