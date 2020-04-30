@@ -40,14 +40,24 @@ function Header(props) {
 						<NavItem>
 							<Link
 								to='/'
-								style={{ textDecoration: 'none', marginLeft: '20px' }}>
+								style={{
+									textDecoration: 'none',
+									marginLeft: '20px',
+									color: '#010A3B',
+									fontWeight: 'bold',
+								}}>
 								Menu
 							</Link>
 						</NavItem>
 						<NavItem>
 							<Link
 								to='/about'
-								style={{ textDecoration: 'none', marginLeft: '20px' }}>
+								style={{
+									textDecoration: 'none',
+									marginLeft: '20px',
+									color: '#010A3B',
+									fontWeight: 'bold',
+								}}>
 								About
 							</Link>
 						</NavItem>

@@ -20,14 +20,37 @@ function Footer(props) {
 							<h5>Links</h5>
 							<ul className='list-unstyled'>
 								<li>
-									<Link to='/'>Home</Link>
+									<Link
+										to='/'
+										style={{
+											color: 'orange',
+											fontWeight: 'bold',
+										}}>
+										Home
+									</Link>
 								</li>
 
 								<li>
-									<Link to='/'>Menu</Link>
+									<Link
+										to='/'
+										style={{
+											color: 'orange',
+											fontWeight: 'bold',
+											textDecoration: 'none',
+										}}>
+										Menu
+									</Link>
 								</li>
 								<li>
-									<Link to='/about'>About Us</Link>
+									<Link
+										to='/about'
+										style={{
+											color: 'orange',
+											fontWeight: 'bold',
+											textDecoration: 'none',
+										}}>
+										About Us
+									</Link>
 								</li>
 							</ul>
 						</div>
@@ -45,7 +68,15 @@ function Footer(props) {
 								<i className='fa fa-fax fa-lg'></i>: +852 8765 4321
 								<br />
 								<i className='fa fa-envelope fa-lg'></i>:{' '}
-								<a href='mailto:pizzamania@food.net'>pizzamania@food.net</a>
+								<a
+									href='mailto:pizzamania@food.net'
+									style={{
+										color: 'orange',
+										fontWeight: 'bold',
+										textDecoration: 'none',
+									}}>
+									pizzamania@food.net
+								</a>
 							</address>
 						</div>
 						<div className='col-12 col-sm-4 align-self-center'>
