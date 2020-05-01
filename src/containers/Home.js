@@ -1,12 +1,15 @@
-import React from 'react';
-import Carousel from './carousel';
-import Menu from './menu';
+import React, { Suspense } from 'react';
+
+const Menu = React.lazy(() => import('./menu'));
+const Carousel = React.lazy(() => import('./carousel'));
 
 export default function Home() {
 	return (
 		<div>
-			<Carousel />
-			<Menu />
+			<Suspense fallback={<div>...Loading</div>}>
+				<Carousel />
+				<Menu />
+			</Suspense>
 		</div>
 	);
 }
