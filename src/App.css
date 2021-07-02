@@ -1,14 +1,14 @@
 body {
-	font-family: 'Oswald', sans-serif !important;
+  font-family: "Oswald", sans-serif !important;
 }
 .text-title {
-	font-family: 'Permanent Marker', cursive;
-	letter-spacing: 0.3rem;
-	text-transform: uppercase;
+  font-family: "Permanent Marker", cursive;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
 }
 
 .cart-icon {
-	cursor: pointer;
-	font-size: 1.2rem;
-	color: var(--mainYellow);
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: var(--mainYellow);
 }

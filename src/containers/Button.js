@@ -1,4 +1,4 @@
-import Styled from 'styled-components';
+import Styled from "styled-components";
 
 export const ButtonContainer = Styled.button`
 text-transform: capitalize;
@@ -10,7 +10,4 @@ border-radius: 0.5rem;
 border: none;
 color: white;
 margin: 0.2rem 0.5rem 0.2rem 0;
-
-} 
-
 `;
